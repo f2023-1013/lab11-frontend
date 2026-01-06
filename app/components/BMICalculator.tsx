@@ -36,7 +36,8 @@ export default function BMICalculator() {
         throw new Error("API URL not configured");
       }
 
-      const res = await fetch(`${apiUrl}/dynamic-ticket-pricing`, {
+const res = await fetch(`${apiUrl}/api/dynamic-ticket-pricing`, {
+
         method: "POST",
         headers: {
           "Content-Type": "application/json",
