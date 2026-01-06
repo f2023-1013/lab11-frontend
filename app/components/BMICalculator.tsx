@@ -36,7 +36,8 @@ export default function BMICalculator() {
         throw new Error("API URL not configured");
       }
 
-const res = await fetch(`${apiUrl}/api/dynamic-ticket-pricing`, {
+const res = await fetch(`${apiUrl}/api/lionfish-fn-namespace/dynamic-ticket-pricing`, {
+
 
         method: "POST",
         headers: {
